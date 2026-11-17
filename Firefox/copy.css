@@ -1,0 +1,8 @@
+/* Re-enables text selection on pages that disable it. Turned off live by
+   isolated.js setting data-allow-copy="0" on <html>. */
+html:not([data-allow-copy="0"]) *,
+html:not([data-allow-copy="0"]) *::before,
+html:not([data-allow-copy="0"]) *::after {
+  -webkit-user-select: text !important;
+  user-select: text !important;
+}
