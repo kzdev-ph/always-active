@@ -19,4 +19,4 @@ Reload the page you want to use it on after installing or changing a setting.
 
 Add this to your browser shortcut in the target section at the end: --disable-features=CalculateNativeWinOcclusion --disable-backgrounding-occluded-windows --source-shortcut-location=taskbar
 
-(i have only tested this in edge and chrome and both works although i haven't tested it on github)
+(i have only tested this in edge and chrome and both works although i haven't tested it on firefox)
